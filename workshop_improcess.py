@@ -1,0 +1,37 @@
+"""
+Created on Fri Feb 22 17:37:30 2019
+
+@author: anirudh jupudi
+"""
+import numpy as np
+a=np.array([[1,2,3],[3,3,4]])
+print(a)
+print(a.size)
+print(a.shape)
+print(a.dtype)
+print(a[0,1])
+print(a[:1])
+print(a[:,2])
+print(a.sum())
+print(a.sum(axis=0))
+print(a.sum(axis=1))
+print(np.exp(a))
+b=np.zeros((3,4))
+print(b)
+c=np.ones((2,4),dtype=np.int32)
+print(c)
+d=np.eye(3,4)
+print(d)
+e=np.arange(10,20,2)
+print(e)
+f=np.arange(12).reshape(4,3)
+print(f)
+i=np.arange(10,20,2.3)
+print(i)
+j=np.array([20,30,40,50])
+print(j)
+k=np.arange(4)
+print(k)
+print("array j-k==",j-k)
+print("j+k==",j+k)
+print("j*k==",j**k)
